@@ -5,5 +5,5 @@
 
 // Demonstrate how to register services
 // In this case it is a simple value service.
-angular.module('myApp.version', []).
+angular.module('myApp.components.version', []).
   value('version', '0.1');

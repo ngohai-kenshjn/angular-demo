@@ -4,7 +4,7 @@
 // Declare app level module which depends on filters, and services
 angular.module('myApp', [
   'ngRoute',
-  'myApp.version',
+  'myApp.components.version',
   'myApp.home',
   'myApp.about'
 ]).
