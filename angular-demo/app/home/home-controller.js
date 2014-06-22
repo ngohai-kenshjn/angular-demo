@@ -3,6 +3,6 @@
 /* Controllers */
 
 angular.module('myApp.home', [])
-  .controller('home-controller', [function() {
+  .controller('home-controller', function() {
 
-  }]);
+  });

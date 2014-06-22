@@ -1,8 +1,8 @@
-<p>This is the partial for view 2.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-    <br>
-    Name: <input type="text" data-ng-model="name"> {{name | uppercase}}
-    </br>
-</p>
+<div data-ng-model="customers">
+    <div>
+        Customer List:
+    </div>
+    <div ng-repeat="customer in customers">
+        <customer-detail customer = "customer"></customer-detail>
+    </div>
+</div>
